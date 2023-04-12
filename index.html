@@ -1,47 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <h1 class="title">Your Result</h1>
 
-  Your Result
-  76
-  of 100
+        <div class="score">
+          <h1 class="result">76</h1>
+          <h2 class="of">of 100</h2>
+        </div>
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
+        <h2>Great</h2>
 
-  Reaction
-  80 / 100
+        <p class="statistic">
+          You scored higher than 65% of <br />
+          the people who have taken <br />
+          these tests.
+        </p>
+      </div>
 
-  Memory
-  92 / 100
+      <div class="summary">
+        <h1 class="summary_title">Summary</h1>
 
-  Verbal
-  61 / 100
+        <img src="./assets/images/icon-reaction.svg" alt="light icon">
+        <p class="reaction">Reaction</p>
+        <p class="reaction_result">80</p>
+        <p class="total">/ 100</p>
 
-  Visual
-  72 / 100
+        <img src="./assets/images/icon-memory.svg" alt="brain icon">
+        <p class="memory">Memory</p>
+        <p class="reaction_result">92</p>
+        <p class="total">/ 100</p>
 
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <img src="./assets/images/icon-verbal.svg" alt="text box icon">
+        <p class="verbal">Verbal</p>
+        <p class="reaction_result">61</p>
+        <p class="total">/ 100</p>
+
+        <img src="./assets/images/icon-visual.svg" alt="eye icon">
+        <p class="visual">Visual</p>
+        <p class="reaction_result">72</p>
+        <p class="total">/ 100</p>
+
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
 </html>
