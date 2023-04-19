@@ -183,3 +183,18 @@ button {
 button:hover {
   background: hsl(224, 30%, 27%);
 }
+
+@media screen and (max-width: 550px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .summary {
+    width: 100%;
+  }
+}
